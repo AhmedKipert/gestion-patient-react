@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+    height: calc(100vh - 40px);
+}
+
+.h-full {
+    height: calc(100vh - 40px);
+}
+
+.bblack {
+    background-color: black;
+    color: white;
+}
+
+.br5 {
+    border-radius: 5px;
+}
+
+.br8 {
+    border-radius: 8px;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.bg-light {
+    background-color: rgb(241, 241, 241);
+}
+
+.page {
+    padding: 1% 5%;
+    box-sizing: border-box;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.px {
+    padding: 0 5px
+}
+
+.py {
+    padding: 5px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    height: 33px;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+
+.input:focus {
+    box-shadow: 0 0 10px royalblue;
+}
+
+.flex-full {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.p-md {
+    padding: 50px;
+}
+
+.btn-primary {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(18, 50, 148);
+    transition: 0.3s;
+}
+
+.btn-danger {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(185, 35, 35);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: rgb(214, 23, 23);
+
+}
+
+.btn-primary2 {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(36, 163, 180);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+
+.btn-primary2:hover {
+    background-color: rgb(21, 126, 139);
+}
+
+.navbar1 {
+    background-color: #081697;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 15px;
+    box-shadow: 0 5px 3px rgba(78, 78, 78, 0.5);
+}
+
+
+.btn-primary:hover {
+    background-color: navy;
+    cursor: pointer;
+}
+
+.btn-primary:disabled {
+    cursor: not-allowed;
+    background-color: rgb(102, 112, 136);
+}
+
+.btn-center {
+    margin: auto;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+.style-none {
+    list-style-type: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navlink:hover {
+    color: rgb(217, 217, 221);
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.navlink-cta {
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(11, 55, 189);
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+.navlink-cta:hover {
+    background-color: navy;
+}
+
+.mt-5 {
+    margin-top: 20px;
+}
+
+.pt-5 {
+    padding-top: 20px;
+}
+
+.bg-primary {
+    background: linear-gradient(to top right, blue, cyan);
+}
+
+.gap {
+    gap: 15px;
+}
+
+.gap-lg {
+    gap: 30px;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.position-relative {
+    position: relative
+}
+
+.succes-message {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px 15px;
+    background-color: rgb(93, 167, 20);
+    color: #ffffff;
+    border-radius: 8px;
+    animation: succes 3s ease-in;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.g-5 {
+    gap: 5px;
+}
+
+.box1 {
+    padding: 15px 25px;
+    background-color: rgb(25, 56, 116);
+    border-radius: 10px 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.box2 {
+    padding: 15px 25px;
+    background-color: rgb(67, 190, 247);
+    border-radius: 10px 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.box3 {
+    padding: 15px 25px;
+    background-color: rgb(22, 161, 57);
+    border-radius: 10px 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.box2:hover {
+    box-shadow: 0 0 8px black;
+}
+
+.box1:hover,
+.box3:hover {
+    transition: 0.2s;
+    box-shadow: 0 0 8px white;
+}
+
+.mt-2 {
+    margin-top: 2px;
+}
+
+.mt-3 {
+    margin-top: 3px;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.tdn {
+    text-decoration: none;
+    color: royalblue;
+    transition: 0.2s;
+}
+
+.tdn:hover {
+    color: indigo;
+}
+
+
+/* information du patient */
+.details {
+    background-color: rgba(5, 62, 185, 0.5);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.fwn {
+    font-weight: normal;
+}
+
+.b-white {
+    border: 1px solid white;
+}
+
+marquee {
+    position: absolute;
+    bottom: 8px;
+    font-size: 1.2rem;
+    color: rgb(18, 98, 104);
+}

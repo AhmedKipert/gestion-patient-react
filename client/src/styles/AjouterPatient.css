@@ -1,0 +1,30 @@
+form {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid lightblue;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+.main {
+    background: linear-gradient(to top right, blue, cyan);
+}
+
+
+@keyframes succes {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-50px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
